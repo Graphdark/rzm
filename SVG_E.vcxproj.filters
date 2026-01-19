@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\lib">
+      <UniqueIdentifier>{889c1b8d-8cd3-4b0f-b825-7e6dc5ece378}</UniqueIdentifier>
+      <Extensions>\lib\generators\makercamsvg\*.*</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\lib\generators">
+      <UniqueIdentifier>{29ec6bca-b157-4360-8d87-f91d0266e246}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lib\generators\makercamsvg">
+      <UniqueIdentifier>{757383d3-ab98-4f2c-baed-0f12ad62fa2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lib\engine">
+      <UniqueIdentifier>{1047dad9-9b5b-4b7b-b101-22fa582976f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\myLib">
+      <UniqueIdentifier>{12dcc624-3bfe-42ab-bc86-2254026663be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\lib\math">
+      <UniqueIdentifier>{1fdddbac-c455-49ae-877f-f79bc8da4510}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\generators\makercamsvg\lc_makercamsvg.h">
+      <Filter>Исходные файлы\lib\generators\makercamsvg</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\generators\makercamsvg\lc_xmlwriterqxmlstreamwriter.h">
+      <Filter>Исходные файлы\lib\generators\makercamsvg</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\engine\rs.h">
+      <Filter>Исходные файлы\lib\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\math\rs_math.h">
+      <Filter>Исходные файлы\lib\math</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\generators\makercamsvg\lc_xmlwriterinterface.h">
+      <Filter>Исходные файлы\lib\generators\makercamsvg</Filter>
+    </ClInclude>
+    <ClInclude Include="myLib\XmlNodeWrapper.h">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClInclude>
+    <ClInclude Include="stringConv.h">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ac_svg_generator.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="myLib\str_utils.h">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClInclude>
+    <ClInclude Include="ac_svg_generator_msxml.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="SvgUtils.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="aci2rgb.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="cmdDwgToSWG.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\generators\makercamsvg\lc_makercamsvg.cpp">
+      <Filter>Исходные файлы\lib\generators\makercamsvg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\generators\makercamsvg\lc_xmlwriterqxmlstreamwriter.cpp">
+      <Filter>Исходные файлы\lib\generators\makercamsvg</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\engine\rs.cpp">
+      <Filter>Исходные файлы\lib\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\math\rs_math.cpp">
+      <Filter>Исходные файлы\lib\math</Filter>
+    </ClCompile>
+    <ClCompile Include="myLib\XmlNodeWrapper.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="stringConv.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="ac_svg_generator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="myLib\AcadStr.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="myLib\rx_utilui.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="myLib\rxdebug.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="myLib\SdStrList.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="myLib\SdStrObjId.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="myLib\SdSysVar.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="myLib\str_utils.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="myLib\rx_utilobj.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="myLib\rx_utilMyEnt.cpp">
+      <Filter>Исходные файлы\myLib</Filter>
+    </ClCompile>
+    <ClCompile Include="SvgUtils.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ac_svg_generator_msxml.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
