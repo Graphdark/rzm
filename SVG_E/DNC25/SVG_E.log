@@ -1,0 +1,2 @@
+﻿C:\Users\graph\Downloads\SVG_E (1)\rzm\SVG_E.vcxproj(92,5): warning MSB4011: невозможно повторно импортировать "C:\Users\graph\Downloads\NCProject\NCadSDK_250\include\arxgate\dbx.props". Он уже был импортирован в "C:\Users\graph\Downloads\NCProject\NCadSDK_250\include\arxgate\arx.props (4,5)". Скорее всего это связано с ошибкой при написании кода сборки. Повторный импорт будет пропущен. 
+C:\Users\graph\Downloads\SVG_E (1)\rzm\stdafx.h(207,10): error C1083: Не удается открыть файл включение: arxHeaders.h: No such file or directory,
